@@ -132,7 +132,7 @@ h4 {
     .image-product-desktop {
         display: block;
         max-width: 45vw;
-        height: 90vh;
+        height: 100vh;
         border-top-left-radius: 0.75rem;
         border-bottom-left-radius: 0.75rem;
     }
@@ -141,7 +141,7 @@ h4 {
         width: 10rem;
         height: fit-content;
         margin-top: 1rem;
-        margin-right: 2.5rem;
+        margin-right: 1.5rem;
         margin-left: 2rem;
         padding-right: 2rem;
     }
