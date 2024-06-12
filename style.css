@@ -82,6 +82,7 @@ h4 {
 
 .button {
     position: relative;
+    width: 100%;
 }
 
 .button-cart {
@@ -111,7 +112,7 @@ h4 {
 
     .card {
         position: static;
-        width: 40rem;
+        width: 43rem;
         margin-top: 13rem;
         margin-left: 1rem;
         padding: 0;
@@ -138,12 +139,12 @@ h4 {
     }
 
     .content {
-        width: 10rem;
+        width: 20rem;
         height: fit-content;
         margin-top: 1rem;
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
         margin-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 5rem;
     }
 
     .button {
