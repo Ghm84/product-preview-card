@@ -33,7 +33,7 @@ body {
 }
 
 .content {
-    margin-left: 1.5rem;
+    margin-left: 1.3rem;
 }
 
 h1 {
@@ -107,11 +107,73 @@ h4 {
     padding-right: 2rem;
 }
 
-@media screen and (min-width: 990px) and (max-width: 1440px) {
+@media screen and (min-width: 675px) and (max-width: 1239px) {
+
+    .card {
+        position: static;
+        width: 40rem;
+        margin-top: 13rem;
+        margin-left: 1rem;
+        padding: 0;
+        border-radius: 0.75rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        padding-right: 1rem;
+    }
+
+    .image-product-mobile {
+        display: none;
+    }
+
+    .image-product-desktop {
+        display: block;
+        max-width: 45vw;
+        height: 90vh;
+        border-top-left-radius: 0.75rem;
+        border-bottom-left-radius: 0.75rem;
+    }
+
+    .content {
+        width: 10rem;
+        height: fit-content;
+        margin-top: 1rem;
+        margin-right: 2.5rem;
+        margin-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .button {
+        position: relative;
+        width: 100%;
+        margin-top: 2rem;
+        padding-right: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .button-cart {
+        position: absolute;
+        width: 13rem;
+        padding-left: 2rem;
+    }
+
+    .icon-cart {
+        position: relative;
+        margin-left: 2rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1440px) {
 
     .card {
         position: static;
         width: 45%;
+        margin-top: 13rem;
         margin-left: 27rem;
         padding: 0;
         border-radius: 0.75rem;
@@ -132,16 +194,16 @@ h4 {
 
     .image-product-desktop {
         display: block;
-        width: 52%;
+        width: 60%;
         border-top-left-radius: 0.75rem;
         border-bottom-left-radius: 0.75rem;
     }
 
     .content {
         max-width: 40%;
-        margin-right: 0.5rem;
+        margin-right: 1.5rem;
         margin-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 1rem;
         padding-bottom: 2.1rem;
     }
 
@@ -167,6 +229,7 @@ h4 {
 
     .button {
         position: relative;
+        width: 100%;
         margin-top: 1rem;
         padding-right: 3rem;
         padding-bottom: 0.5rem;
@@ -174,7 +237,7 @@ h4 {
 
     .button-cart {
         position: absolute;
-        max-width: 15rem;
+        width: 15rem;
         padding-left: 2rem;
     }
 
@@ -184,3 +247,6 @@ h4 {
         padding-left: 2rem;
     }
 }
+
+
+
