@@ -179,7 +179,7 @@ h4 {
 
     .card {
         position: static;
-        width: 45%;
+        width: 47%;
         margin-top: 12.5rem;
         margin-left: 27rem;
         padding: 0;
@@ -244,7 +244,7 @@ h4 {
 
     .button-cart {
         position: absolute;
-        width: 15.25rem;
+        width: 15rem;
         padding-left: 2rem;
     }
 
