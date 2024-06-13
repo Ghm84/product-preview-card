@@ -8,17 +8,18 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
-    max-width: 90%;
+    max-width: 91%;
     max-height: 90%;
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 0.9rem;
     border-radius: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.3rem;
 }
 
 .container {
     width: 100%;
     height: 100%;
+    padding-right: 3rem;
 }
 
 .image-product-mobile {
@@ -56,10 +57,10 @@ h2 {
 p {
     color: hsl(228, 12%, 48%);
     font-family: "Montserrat";
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 500;
-    line-height: 1.4rem;
-    width: 95%;
+    line-height: 1.5rem;
+    width: 93%;
     margin-top: 1rem;
 }
 
@@ -88,7 +89,7 @@ h4 {
 .button-cart {
     position: absolute;
     background-color: hsl(158, 36%, 37%);
-    width: 18.4rem;
+    width: 18.5rem;
     height: 3.1rem;
     margin-left: -0.2rem;
     border: none;
@@ -106,6 +107,11 @@ h4 {
     margin-top: 1rem;
     margin-left: 5.5rem;
     padding-right: 2rem;
+}
+
+.button-cart:hover {
+    background-color: hsl(159, 39%, 21%);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 675px) and (max-width: 1239px) {
@@ -174,7 +180,7 @@ h4 {
     .card {
         position: static;
         width: 45%;
-        margin-top: 13rem;
+        margin-top: 12.5rem;
         margin-left: 27rem;
         padding: 0;
         border-radius: 0.75rem;
@@ -238,7 +244,7 @@ h4 {
 
     .button-cart {
         position: absolute;
-        width: 15rem;
+        width: 15.25rem;
         padding-left: 2rem;
     }
 
